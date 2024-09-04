@@ -1,0 +1,76 @@
+@page {
+  size: A4;
+}
+
+body {
+  padding: 0px;
+  margin: 0px;
+  font-family: Arial;
+}
+
+div {
+  background-image: url("Fundo.jpg");
+  background-size: 100% 100%;
+  -webkit-print-color-adjust: exact !important;
+  padding: 10px;
+  page-break-after: always;
+  height: 95%;
+}
+
+header {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
+
+section {
+  border: 1px solid black;
+  width: 80%;
+  margin: auto;
+  padding: 5px;
+}
+
+main {
+  width: 90%;
+  margin: auto;
+  padding: 5px;
+}
+
+h2 {
+  text-align: center;
+  line-height: 2px;
+}
+
+h3 {
+  line-height: 5px;
+}
+
+i {
+  font-weight: normal;
+}
+
+text {
+  font-size: 10px;
+  font-family: monospace;
+}
+
+td, th {
+  border-style: none;
+  padding: 10px 20px;
+  width: 100px;
+}
+
+.tabela * {
+  border: 1px solid black;
+  padding: 5px;
+  font-size: 11px;
+  text-align: center;
+}
+
+.tabela {
+  border-spacing: 0;
+}
+
+.tabela th {
+  background-color: lightgreen;
+}
